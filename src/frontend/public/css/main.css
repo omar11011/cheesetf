@@ -62,3 +62,11 @@
     font-size: 12px !important;
     padding-top: 5px;
 }
+
+@media (max-width: 600px) {
+    
+    .global-container {
+        width: 90%;
+    }
+
+}

@@ -10,7 +10,7 @@ app.set('view engine', 'ejs')
 
 app.use(router)
 
-app.use(express.static(path.join(__dirname, './frontend/public/')))
+app.use(express.static(path.join(__dirname, 'frontend/public/')))
 
 app.listen(port, () => {
     console.log('Server on port', port)
