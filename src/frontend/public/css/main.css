@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Modak|Roboto');
+
+.body {
+    background: url('../images/bg_screen.png') repeat #489562 !important;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.global-container {
+    width: 65%;
+    background-color: #2d2c2d;
+    padding: 0px 30px;
+    box-shadow: 0px 0px 12px #2d2c2d;
+}
+
+.github-button {
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Images */
+
+.banner {
+    width: 100%;
+}
+
+/* Navbar */
+
+.navbar-principal {
+    background-color: #2d2c2d;
+    border-bottom: 5px #489562 solid;
+}
+
+.navbar-link, .navbar-dropdown-link {
+    color: white !important;
+    opacity: 0.7;
+    font-size: 14px !important;
+}
+
+.navbar-link:hover {
+    opacity: 1;
+}
+
+.dropdown-menu {
+    background-color: #2d2c2d !important;
+    border: none !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    background-color: #2d2c2d !important;
+}
+
+.navbar-dropdown-link {
+    font-size: 12px !important;
+    padding-top: 5px;
+}
